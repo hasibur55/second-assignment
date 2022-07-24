@@ -1,0 +1,160 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 1321px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.head {
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+    padding: 0px 110px;
+    margin-bottom: 8px;
+
+}
+
+
+.button {
+    background-color: red;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    margin-top: 30px;
+}
+
+.player-info h1 {
+    font-size: 70px;
+    color: white;
+}
+
+.player-info p {
+    color: white;
+}
+
+.player-img img{
+  width: 581px;
+  height: 613;
+  padding-top: 20%;
+}
+
+.mid-section {
+    display: flex;
+    margin-top: 30px;
+}
+
+.small-menu {
+    width: 312px;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.menu button {
+    width: 252px;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: px;
+    margin: 10px;
+
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.player-images {
+    display: flex;
+}
+
+#btn{
+    font-size: 20px;
+}
+.bttn {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.clock {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    padding-left: 15px;
+}
+
+.blog {
+    box-shadow: 5px 5px 5px black;
+    margin-right: 10px;
+    margin-bottom: 10px; 
+    border: 10px;
+    border: 3px solid white;
+}
+
+footer{
+    background-color: #212121;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 1px;
+}
+
+.footer-title{
+    color: white;
+}
+.footer-content{
+    display: flex;
+        justify-content: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+}
+
+.footer-content a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+.social-icon, .fa-facebook, .fa-youtube, .fa-twitter{
+    color: white;
+    font-size: 50px;
+}
+.social-icon{
+  margin-bottom: 5px;
+}
+
+/* mobile device */
+
+@media only screen and (max-width: 688px){
+
+    .head{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
